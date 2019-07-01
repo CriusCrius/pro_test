@@ -1,0 +1,24 @@
+# 美国队长护盾
+
+import turtle
+
+t = turtle.Turtle()
+t.dot(200, "red")
+t.dot(170, "white")
+t.dot(140, "red")
+t.dot(100, "blue")
+t.up()
+t.goto(-47, 16)
+t.down()
+t.color("white")
+t.fillcolor("white")
+t.begin_fill()
+for x in range(5):
+    t.fd(35)
+    t.left(72)
+    t.fd(35)
+    t.right(144)
+t.end_fill()
+
+t.up()
+turtle.done()
